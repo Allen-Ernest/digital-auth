@@ -1,0 +1,16 @@
+2026-02-08 18:20:21,799 - SENDER - Sender started.
+2026-02-08 18:20:21,987 - SENDER - RSA keys generated and saved.
+2026-02-08 18:20:35,115 - SENDER - Message received from user.
+2026-02-08 18:20:35,115 - SENDER - AES key and IV generated.
+2026-02-08 18:20:35,176 - SENDER - Message encrypted using AES.
+2026-02-08 18:20:35,196 - SENDER - AES key encrypted using RSA public key.
+2026-02-08 18:20:35,210 - SENDER - Encrypted message signed with private key.
+2026-02-08 18:20:35,210 - SENDER - Sender finished successfully.
+2026-02-08 18:20:52,793 - RECEIVER - Receiver started.
+2026-02-08 18:20:53,279 - RECEIVER - Private key loaded.
+2026-02-08 18:20:53,288 - RECEIVER - Encrypted message, AES key and signature loaded.
+2026-02-08 18:20:53,292 - RECEIVER - Signature verification successful.
+2026-02-08 18:20:53,297 - RECEIVER - AES key decrypted.
+2026-02-08 18:20:53,318 - RECEIVER - Message decrypted successfully.
+2026-02-08 18:20:53,319 - RECEIVER - Tampering successfully detected.
+2026-02-08 18:20:53,320 - RECEIVER - Receiver finished successfully.
